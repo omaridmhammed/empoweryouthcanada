@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empower Youth Canada - Inspiring and equipping youth to lead, thrive, and create change. Programs in education, employment, mental health, arts, and leadership for Canadian youth.">
+    <meta name="keywords" content="youth empowerment, Canadian youth programs, mentorship, leadership, education, employment, mental health support">
+    <meta name="author" content="Empower Youth Canada">
+    
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="Empower Youth Canada - Inspiring Youth to Lead and Thrive">
+    <meta property="og:description" content="Empowering youth across Canada with education, mentorship, and opportunities for leadership and innovation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://empoweryouthcanada.ca">
+    
+    <title>Empower Youth Canada | Inspiring Youth to Lead, Thrive, and Create Change</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sections.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">
+                <div class="logo-icon">EYC</div>
+                <span>Empower Youth Canada</span>
+            </a>
+            
+            <div class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-links">
+                    <li><a href="#home" class="navbar-link active">Home</a></li>
+                    <li class="navbar-dropdown">
+                        <a href="#about" class="navbar-link navbar-dropdown-toggle">
+                            About
+                            <span class="navbar-dropdown-icon">▾</span>
+                        </a>
+                        <div class="navbar-dropdown-menu">
+                            <a href="#our-story" class="navbar-dropdown-item">Our Story</a>
+                            <a href="#mission-vision" class="navbar-dropdown-item">Mission & Vision</a>
+                            <a href="#leadership" class="navbar-dropdown-item">Leadership</a>
+                            <a href="#partners" class="navbar-dropdown-item">Partners</a>
+                        </div>
+                    </li>
+                    <li class="navbar-dropdown">
+                        <a href="#programs" class="navbar-link navbar-dropdown-toggle">
+                            Programs
+                            <span class="navbar-dropdown-icon">▾</span>
+                        </a>
+                        <div class="navbar-dropdown-menu">
+                            <a href="#national-programs" class="navbar-dropdown-item">National Programs</a>
+                            <a href="#regional-chapters" class="navbar-dropdown-item">Regional Chapters</a>
+                            <a href="#thematic-areas" class="navbar-dropdown-item">Thematic Areas</a>
+                        </div>
+                    </li>
+                    <li><a href="#events" class="navbar-link">Events</a></li>
+                    <li><a href="#resources" class="navbar-link">Resources</a></li>
+                    <li><a href="#get-involved" class="navbar-link">Get Involved</a></li>
+                    <li><a href="#contact" class="navbar-link">Contact</a></li>
+                </ul>
+                <a href="#donate" class="btn btn-primary btn-sm">Donate Now</a>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <img src="assets/images/hero_banner_youth_1764183786321.png" alt="Empowered youth celebrating together">
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content animate-fade-in-up">
+            <h1 class="hero-tagline">Inspiring and Equipping Youth to Lead, Thrive, and Create Change</h1>
+            <p class="hero-description">
+                We empower youth across Canada by providing equitable access to education, mentorship, and opportunities that build leadership, foster innovation, and promote wellbeing.
+            </p>
+            <div class="hero-cta">
+                <a href="#get-involved" class="btn btn-primary btn-lg">Join Us</a>
+                <a href="#programs" class="btn btn-outline btn-lg">Explore Programs</a>
+            </div>
+            
+            <!-- Quick Stats -->
+            <div class="stats-grid" style="margin-top: 4rem;">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Youth Trained</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">Partner Organizations</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="1000">0</span>
+                    <span class="stat-label">Events Hosted</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Cities Served</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Capital Campaign CTA -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Support Our Capital Campaign</h2>
+            <p>Help us secure a permanent space to serve youth across Canada. Every contribution brings us closer to creating a hub for empowerment, learning, and community building.</p>
+            <div class="cta-buttons">
+                <a href="#donate" class="btn btn-primary btn-lg">Contribute Now</a>
+                <a href="#capital-campaign" class="btn btn-ghost btn-lg">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-intro reveal">
+                <h2>About Empower Youth Canada</h2>
+                <p>Founded in 2025, we believe that when young people are given the right tools, guidance, and opportunities, they can create lasting change in their own lives and in the world around them.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section-sm" id="our-story">
+        <div class="container">
+            <h2 class="section-title reveal">Our Story</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>The Beginning</h3>
+                        <p>Empower Youth Canada was founded in Ottawa, Ontario by a small group of community leaders and youth advocates who recognized the growing need for equitable access to education, mentorship, and career opportunities—especially for marginalized and underrepresented youth.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Rapid Growth</h3>
+                        <p>What started as a local initiative quickly grew into a nationwide movement. Within months, our programs began reaching youth across Canada through virtual training, community partnerships, and grassroots projects.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Building Partnerships</h3>
+                        <p>We built strong partnerships with schools, nonprofits, and industry leaders, enabling us to deliver programs that equip youth with leadership skills, digital literacy, sports, arts, mental health support, and pathways to meaningful employment.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Today</h3>
+                        <p>Empower Youth Canada stands as a bridge between potential and opportunity, ensuring that no young person is left behind—regardless of their background, circumstances, or location. Our story is still being written, and it's being shaped by every young person we empower.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="section" id="mission-vision">
+        <div class="container">
+            <h2 class="section-title reveal">Mission & Vision</h2>
+            
+            <div class="grid grid-cols-2 gap-2xl" style="margin-top: 3rem;">
+                <div class="card glass reveal">
+                    <div class="card-content">
+                        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-lg);">Mission Statement</h3>
+                        <p style="font-size: var(--text-lg); line-height: 1.8;">To empower youth across Canada by providing equitable access to education, mentorship, and opportunities that build leadership, foster innovation, and promote wellbeing.</p>
+                    </div>
+                </div>
+                
+                <div class="card glass reveal">
+                    <div class="card-content">
+                        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-lg);">Vision Statement</h3>
+                        <p style="font-size: var(--text-lg); line-height: 1.8;">A Canada where every young person has the skills, confidence, and opportunities to shape a brighter future for themselves and their communities.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Core Values -->
+            <div style="margin-top: 4rem;">
+                <h3 class="section-title reveal" style="font-size: var(--text-3xl);">Core Values</h3>
+                <div class="grid grid-cols-3 gap-xl" style="margin-top: 2rem;">
+                    <div class="card reveal">
+                        <div class="card-content">
+                            <div class="program-icon" style="margin-bottom: var(--space-md);">🤝</div>
+                            <h4 style="margin-bottom: var(--space-sm);">Equity & Inclusion</h4>
+                            <p style="color: var(--color-gray-light); font-size: var(--text-sm);">We embrace diversity and ensure every youth—regardless of background—feels valued, heard, and respected.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal">
+                        <div class="card-content">
+                            <div class="program-icon" style="margin-bottom: var(--space-md);">⚡</div>
+                            <h4 style="margin-bottom: var(--space-sm);">Empowerment</h4>
+                            <p style="color: var(--color-gray-light); font-size: var(--text-sm);">We believe in equipping young people with the tools, skills, and confidence to lead their own journey.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal">
+                        <div class="card-content">
+                            <div class="program-icon" style="margin-bottom: var(--space-md);">🌟</div>
+                            <h4 style="margin-bottom: var(--space-sm);">Collaboration</h4>
+                            <p style="color: var(--color-gray-light); font-size: var(--text-sm);">We build strong partnerships with communities, organizations, and allies to amplify impact.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal">
+                        <div class="card-content">
+                            <div class="program-icon" style="margin-bottom: var(--space-md);">💡</div>
+                            <h4 style="margin-bottom: var(--space-sm);">Innovation</h4>
+                            <p style="color: var(--color-gray-light); font-size: var(--text-sm);">We encourage creativity, fresh ideas, and forward-thinking solutions to address youth challenges.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal">
+                        <div class="card-content">
+                            <div class="program-icon" style="margin-bottom: var(--space-md);">✅</div>
+                            <h4 style="margin-bottom: var(--space-sm);">Integrity</h4>
+                            <p style="color: var(--color-gray-light); font-size: var(--text-sm);">We act with honesty, transparency, and accountability in everything we do.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal">
+                        <div class="card-content">
+                            <div class="program-icon" style="margin-bottom: var(--space-md);">💪</div>
+                            <h4 style="margin-bottom: var(--space-sm);">Resilience</h4>
+                            <p style="color: var(--color-gray-light); font-size: var(--text-sm);">We support young people in building strength and adaptability to overcome challenges and thrive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="section" id="programs">
+        <div class="container">
+            <h2 class="section-title reveal">Our Programs & Services</h2>
+            <p class="section-subtitle reveal">Comprehensive support for Canadian youth across education, employment, wellness, and leadership</p>
+            
+            <div id="thematic-areas">
+                <h3 class="section-title reveal" style="font-size: var(--text-3xl); margin-top: 4rem;">Thematic Areas</h3>
+                <div class="programs-grid">
+                    <div class="program-card reveal">
+                        <div class="program-icon">📚</div>
+                        <h3 class="program-title">Education & Skills Training</h3>
+                        <p class="program-description">Career readiness programs, digital literacy workshops, and skill-building initiatives to prepare youth for the modern workforce.</p>
+                        <ul class="program-features">
+                            <li>Digital literacy workshops</li>
+                            <li>Career development programs</li>
+                            <li>Technical skills training</li>
+                            <li>Academic support</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgramModal('education')">Learn More</button>
+                    </div>
+                    
+                    <div class="program-card reveal">
+                        <div class="program-icon">💼</div>
+                        <h3 class="program-title">Employment & Entrepreneurship</h3>
+                        <p class="program-description">Job matching services, entrepreneurship support, and startup mentorship to help youth build successful careers and businesses.</p>
+                        <ul class="program-features">
+                            <li>Job placement assistance</li>
+                            <li>Startup incubation</li>
+                            <li>Business mentorship</li>
+                            <li>Networking opportunities</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgramModal('employment')">Learn More</button>
+                    </div>
+                    
+                    <div class="program-card reveal">
+                        <div class="program-icon">🧠</div>
+                        <h3 class="program-title">Mental Health & Wellness</h3>
+                        <p class="program-description">Peer support groups, counselling services, and wellness programs to support youth mental health and wellbeing.</p>
+                        <ul class="program-features">
+                            <li>Peer support circles</li>
+                            <li>Mental health resources</li>
+                            <li>Wellness workshops</li>
+                            <li>Crisis intervention</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgramModal('mental-health')">Learn More</button>
+                    </div>
+                    
+                    <div class="program-card reveal">
+                        <div class="program-icon">🎨</div>
+                        <h3 class="program-title">Arts, Sports & Leadership</h3>
+                        <p class="program-description">Creative workshops, sports leagues, and leadership training to develop well-rounded, confident youth leaders.</p>
+                        <ul class="program-features">
+                            <li>Arts & creative programs</li>
+                            <li>Sports leagues</li>
+                            <li>Leadership development</li>
+                            <li>Performance showcases</li>
+                        </ul>
+                        <button class="btn btn-outline" onclick="openProgramModal('arts-sports')">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Regional Chapters -->
+            <div id="regional-chapters" style="margin-top: 5rem;">
+                <h3 class="section-title reveal" style="font-size: var(--text-3xl);">Regional Chapters</h3>
+                <p class="section-subtitle reveal">We're proud to serve youth in communities across Canada</p>
+                
+                <div class="grid grid-cols-3 gap-xl" style="margin-top: 2rem;">
+                    <div class="card glass reveal">
+                        <div class="card-content">
+                            <h4 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">📍 Ottawa</h4>
+                            <p style="color: var(--color-gray-light);">Our flagship location at 815 St. Laurent Blvd, hosting Social Fridays, Fancy Weekends, and daily programs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card glass reveal">
+                        <div class="card-content">
+                            <h4 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">📍 Toronto</h4>
+                            <p style="color: var(--color-gray-light);">Expanding our reach to serve Toronto youth with mentorship, training, and community events.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card glass reveal">
+                        <div class="card-content">
+                            <h4 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">📍 Vancouver</h4>
+                            <p style="color: var(--color-gray-light);">Building partnerships on the West Coast to bring our programs to British Columbia youth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section bg-dark-light" id="events">
+        <div class="container">
+            <h2 class="section-title reveal">Events & Community</h2>
+            <p class="section-subtitle reveal">Join us for community-building, learning, and good vibes. Most events are free or low-cost and open to ages 16–30.</p>
+            
+            <!-- Featured Events -->
+            <div class="events-featured">
+                <div class="event-card reveal">
+                    <div class="card-img-container">
+                        <img src="assets/images/social_fridays_event_1764183801185.png" alt="Social Fridays Event" class="event-image">
+                        <div class="card-badge">Weekly</div>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-type">Social Series</span>
+                        <h3 class="event-title">Social Fridays</h3>
+                        <div class="event-date-time">
+                            <span>📅 Every Friday</span>
+                            <span>🕐 6:00–9:00 PM</span>
+                        </div>
+                        <p class="event-description">
+                            A relaxed end-of-week hangout with music, games, open mic, and light snacks. Rotating mini-workshops in the first hour covering resume tips, Canva basics, budgeting, and more.
+                        </p>
+                        <div class="event-details">
+                            <div class="event-detail-item">
+                                <span class="event-detail-label">Location:</span>
+                                <span>815 St. Laurent Blvd, Room 225</span>
+                            </div>
+                            <div class="event-detail-item">
+                                <span class="event-detail-label">Cost:</span>
+                                <span>Free (donations welcome)</span>
+                            </div>
+                            <div class="event-detail-item">
+                                <span class="event-detail-label">Ages:</span>
+                                <span>16–30</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: var(--space-lg);">
+                            <strong style="color: var(--color-white);">Upcoming Themes:</strong>
+                            <ul style="margin-top: var(--space-sm); color: var(--color-gray-light); font-size: var(--text-sm);">
+                                <li>🎲 Game Night Edition (1st Friday)</li>
+                                <li>🎤 Open Mic & Poetry (2nd Friday)</li>
+                                <li>⚡ Skills Sprint: Quick Tips (3rd Friday)</li>
+                                <li>🌍 Culture & Community Night (4th Friday)</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" style="width: 100%; margin-top: var(--space-lg);" onclick="openRSVPModal('social-friday')">RSVP Now</button>
+                    </div>
+                </div>
+                
+                <div class="event-card reveal">
+                    <div class="card-img-container">
+                        <img src="assets/images/fancy_weekend_event_1764183812453.png" alt="Fancy Weekend Event" class="event-image">
+                        <div class="card-badge">Monthly</div>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-type">Premium Event</span>
+                        <h3 class="event-title">Fancy Weekends</h3>
+                        <div class="event-date-time">
+                            <span>📅 One Saturday/Month</span>
+                            <span>🕐 6:00–10:00 PM</span>
+                        </div>
+                        <p class="event-description">
+                            Dress-up social featuring DJ/live performances, photo booth, mocktails, and a showcase by youth founders and creatives. Come as you are—or go all out fancy!
+                        </p>
+                        <div class="event-details">
+                            <div class="event-detail-item">
+                                <span class="event-detail-label">Location:</span>
+                                <span>815 St. Laurent Blvd, Multi-Purpose Hall</span>
+                            </div>
+                            <div class="event-detail-item">
+                                <span class="event-detail-label">Cost:</span>
+                                <span>Sliding scale $0–$15</span>
+                            </div>
+                            <div class="event-detail-item">
+                                <span class="event-detail-label">Ages:</span>
+                                <span>16–30 (allies welcome)</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: var(--space-lg);">
+                            <strong style="color: var(--color-white);">Program Flow:</strong>
+                            <ul style="margin-top: var(--space-sm); color: var(--color-gray-light); font-size: var(--text-sm);">
+                                <li>6:00–7:00 — Doors, networking, photo booth</li>
+                                <li>7:00–7:30 — Youth Creators Spotlight</li>
+                                <li>7:30–9:30 — Social & dance floor</li>
+                                <li>9:30–10:00 — Community shout-outs</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-secondary" style="width: 100%; margin-top: var(--space-lg);" onclick="openRSVPModal('fancy-weekend')">Get Tickets</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Event Guidelines -->
+            <div class="card glass reveal" style="margin-top: 3rem; padding: var(--space-2xl);">
+                <h3 style="margin-bottom: var(--space-lg);">Safety & Inclusivity</h3>
+                <p style="color: var(--color-gray-light); line-height: 1.7;">
+                    We are an LGBTQ+-affirming, anti-oppressive space. Harassment or discrimination is not tolerated. All events are alcohol-free with peer ambassadors and security on site. We're committed to creating a welcoming environment for all youth, regardless of background or identity.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="section" id="resources">
+        <div class="container">
+            <h2 class="section-title reveal">Resources</h2>
+            <p class="section-subtitle reveal">Tools, guides, and support services to help you succeed</p>
+            
+            <div class="resources-grid">
+                <div class="resource-category reveal">
+                    <h3>📖 Toolkits & Guides</h3>
+                    <div class="resource-list">
+                        <a href="#" class="resource-item">
+                            <span>Leadership Skills Development</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Financial Literacy Guide</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Employment Tips & Resume Builder</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Mental Health Resources</span>
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="resource-category reveal">
+                    <h3>💰 Funding & Scholarships</h3>
+                    <div class="resource-list">
+                        <a href="#" class="resource-item">
+                            <span>National Youth Scholarships</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Application Tips & Support</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Funding Opportunities Database</span>
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="resource-category reveal">
+                    <h3>🏢 Partner Services Directory</h3>
+                    <div class="resource-list">
+                        <a href="#" class="resource-item">
+                            <span>Mental Health Services</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Legal Aid Resources</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Career Services</span>
+                            <span>→</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Housing Support</span>
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="resource-category reveal" style="border: 2px solid var(--color-accent);">
+                    <h3>🆘 Crisis Support</h3>
+                    <div class="resource-list">
+                        <a href="tel:988" class="resource-item">
+                            <span>Suicide Crisis Helpline: 988</span>
+                            <span>📞</span>
+                        </a>
+                        <a href="tel:1-866-531-2600" class="resource-item">
+                            <span>Kids Help Phone: 1-866-531-2600</span>
+                            <span>📞</span>
+                        </a>
+                        <a href="#" class="resource-item">
+                            <span>Crisis Text Line: Text HOME to 686868</span>
+                            <span>💬</span>
+                        </a>
+                        <a href="tel:911" class="resource-item">
+                            <span>Emergency: 911</span>
+                            <span>🚨</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section class="section bg-dark-light" id="get-involved">
+        <div class="container">
+            <h2 class="section-title reveal">Get Involved</h2>
+            <p class="section-subtitle reveal">Be part of the movement to empower Canadian youth</p>
+            
+            <div class="grid grid-cols-2 gap-2xl" style="margin-top: 3rem;">
+                <div class="card reveal">
+                    <div class="card-content">
+                        <div class="program-icon" style="font-size: var(--text-4xl);">🙋</div>
+                        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">Volunteer</h3>
+                        <p style="color: var(--color-gray-light); margin-bottom: var(--space-lg);">
+                            Join our team of dedicated volunteers helping with events, mentorship, program delivery, and community outreach.
+                        </p>
+                        <ul class="program-features">
+                            <li>Event support & coordination</li>
+                            <li>Mentorship opportunities</li>
+                            <li>Program facilitation</li>
+                            <li>Administrative support</li>
+                        </ul>
+                        <button class="btn btn-primary" style="width: 100%; margin-top: var(--space-lg);" onclick="openVolunteerModal()">Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class="card reveal">
+                    <div class="card-content">
+                        <div class="program-icon" style="font-size: var(--text-4xl);">🤝</div>
+                        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">Partner With Us</h3>
+                        <p style="color: var(--color-gray-light); margin-bottom: var(--space-lg);">
+                            Collaborate with us to amplify impact through sponsorships, program partnerships, and community initiatives.
+                        </p>
+                        <ul class="program-features">
+                            <li>Corporate sponsorships</li>
+                            <li>Program collaborations</li>
+                            <li>In-kind donations</li>
+                            <li>Community partnerships</li>
+                        </ul>
+                        <button class="btn btn-secondary" style="width: 100%; margin-top: var(--space-lg);" onclick="window.location.href='#contact'">Contact Us</button>
+                    </div>
+                </div>
+                
+                <div class="card reveal">
+                    <div class="card-content">
+                        <div class="program-icon" style="font-size: var(--text-4xl);">💝</div>
+                        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">Donate</h3>
+                        <p style="color: var(--color-gray-light); margin-bottom: var(--space-lg);">
+                            Your generous contribution helps us provide free programs, resources, and opportunities to youth across Canada.
+                        </p>
+                        <div style="margin-bottom: var(--space-lg);">
+                            <p style="color: var(--color-primary-light); font-weight: 600;">One-time or recurring giving available</p>
+                        </div>
+                        <button class="btn btn-primary" style="width: 100%; margin-top: var(--space-lg);" onclick="openDonateModal()">Donate Now</button>
+                    </div>
+                </div>
+                
+                <div class="card reveal">
+                    <div class="card-content">
+                        <div class="program-icon" style="font-size: var(--text-4xl);">👥</div>
+                        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">Membership</h3>
+                        <p style="color: var(--color-gray-light); margin-bottom: var(--space-lg);">
+                            Join as a youth member or mentor to access exclusive programs, networking events, and leadership opportunities.
+                        </p>
+                        <ul class="program-features">
+                            <li>Priority event registration</li>
+                            <li>Networking access</li>
+                            <li>Exclusive workshops</li>
+                            <li>Leadership opportunities</li>
+                        </ul>
+                        <button class="btn btn-outline" style="width: 100%; margin-top: var(--space-lg);" onclick="openMembershipModal()">Join Today</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Contact Us</h2>
+            <p class="section-subtitle reveal">We'd love to hear from you. Get in touch with our team.</p>
+            
+            <div class="contact-container">
+                <div class="contact-form-container reveal">
+                    <h3 style="margin-bottom: var(--space-xl);">Send us a message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="(optional)">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <select id="subject" name="subject" class="form-select" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="programs">Program Information</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="donation">Donation Question</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us how we can help..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container reveal">
+                    <h3 style="margin-bottom: var(--space-xl);">Contact Information</h3>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-info-content">
+                            <h4>Email</h4>
+                            <p><a href="mailto:Admin@EYC.ca">Admin@EYC.ca</a></p>
+                            <p><a href="mailto:Hudson@eyc.ca">Hudson@eyc.ca</a></p>
+                            <p><a href="mailto:Info@EYC.ca">Info@EYC.ca</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-info-content">
+                            <h4>Office Location</h4>
+                            <p>815 St. Laurent Blvd<br>Ottawa, ON<br>(Former Rideau High School)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">🌐</div>
+                        <div class="contact-info-content">
+                            <h4>Follow Us</h4>
+                            <div class="footer-social" style="margin-top: var(--space-md);">
+                                <a href="#" class="social-icon" aria-label="Facebook">
+                                    <span>f</span>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="Instagram">
+                                    <span>📷</span>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="LinkedIn">
+                                    <span>in</span>
+                                </a>
+                                <a href="#" class="social-icon" aria-label="TikTok">
+                                    <span>🎵</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Map -->
+                    <div class="map-embed">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8234!2d-75.641!3d45.434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDI2JzAyLjQiTiA3NcKwMzgnMjcuNiJX!5e0!3m2!1sen!2sca!4v1234567890"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="navbar-logo" style="margin-bottom: var(--space-lg);">
+                        <div class="logo-icon">EYC</div>
+                        <span>Empower Youth Canada</span>
+                    </div>
+                    <p style="color: var(--color-gray-light); margin-bottom: var(--space-lg);">
+                        Inspiring and equipping youth to lead, thrive, and create change across Canada.
+                    </p>
+                    
+                    <!-- Newsletter Signup -->
+                    <h4 style="font-size: var(--text-base); margin-bottom: var(--space-md);">Subscribe to our newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" class="form-input newsletter-input" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#about" class="footer-link">About Us</a>
+                        <a href="#programs" class="footer-link">Programs</a>
+                        <a href="#events" class="footer-link">Events</a>
+                        <a href="#resources" class="footer-link">Resources</a>
+                        <a href="#get-involved" class="footer-link">Get Involved</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Programs</h4>
+                    <div class="footer-links">
+                        <a href="#thematic-areas" class="footer-link">Education & Skills</a>
+                        <a href="#thematic-areas" class="footer-link">Employment</a>
+                        <a href="#thematic-areas" class="footer-link">Mental Health</a>
+                        <a href="#thematic-areas" class="footer-link">Arts & Sports</a>
+                        <a href="#regional-chapters" class="footer-link">Regional Chapters</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Get Involved</h4>
+                    <div class="footer-links">
+                        <a href="#get-involved" class="footer-link">Volunteer</a>
+                        <a href="#get-involved" class="footer-link">Partner With Us</a>
+                        <a href="#get-involved" class="footer-link">Donate</a>
+                        <a href="#get-involved" class="footer-link">Membership</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Empower Youth Canada. All rights reserved.</p>
+                <p style="margin-top: var(--space-sm);">
+                    <a href="#privacy-policy" style="color: var(--color-gray); margin: 0 var(--space-sm);">Privacy Policy</a> | 
+                    <a href="#terms-of-use" style="color: var(--color-gray); margin: 0 var(--space-sm);">Terms of Use</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/components.js"></script>
+</body>
+</html>
